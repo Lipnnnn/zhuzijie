@@ -1,0 +1,14 @@
+<!--pages/news/news.wxml-->
+<ahhc-header></ahhc-header>
+
+<view class="news">
+  <view class="content">
+    <view wx:for="{{newsArr}}" wx:key="_id">
+      <ahhc-news-item item="{{item}}"></ahhc-news-item>
+    </view>
+  </view>
+  <view class="load">
+    <van-loading size="20px" wx:if="{{isLoading}}">加载中...</van-loading>
+    <view class="load-footer" wx:if="{{hasData}}">没有更多数据了...</view>
+  </view>
+</view>

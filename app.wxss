@@ -1,0 +1,74 @@
+/* 配置全局样式 */
+view,text{
+  box-sizing: border-box;
+}
+
+/* 去掉scroll-view默认的滚动条 */
+::-webkit-scrollbar {
+  display:none;
+  width:0;
+  height:0;
+  color:transparent;
+}
+
+page{
+  --themeColor: #BDA066;
+  --globalColor: #1a1b1c;
+  --focusColor: #4c4d4e;
+  --descColor: #7e8081;
+  --greyColor: #8e8e8e;
+  --subColor: #b1b2b3;
+  --lightColor: #e4e4e4;
+  --globalBgColor1: #e3e4e5;
+  --globalBgColor2: #f6f7f8;
+  --globalBgColor3: #ffffff;
+}
+
+.pub-title{
+  text-align: center;
+  font-weight: 900;
+}
+
+.pub-title .en{
+  font-size: 100rpx;
+  color: var(--globalColor);
+  opacity: .1;
+  text-transform: uppercase;
+}
+
+.pub-title .ch{
+  font-size: 65rpx;
+  color: var(--globalColor);
+  transform: translateY(-70rpx);
+}
+
+.pub-title .line{
+  width: 100rpx;
+  height: 5rpx;
+  background: var(--globalColor);
+  opacity: .7;
+  /* margin: -50rpx auto; */
+  display: inline-block;  /* 设置为行内块，因为父级设置了text-align:center，所以就会居中显示 */
+  transform: translateY(-50rpx);
+}
+
+.content{
+  padding: 0 30rpx 30rpx;
+  color: var(--focusColor);
+  text-align: justify;  /* 设置文字左右两端对齐 */
+}
+
+.content .text{
+  text-indent: 2em;  /* 首行缩进两个字符 */
+  border-bottom: 4rpx dotted var(--themeColor);
+  padding: 20rpx 10rpx;
+  line-height: 1.6em;
+}
+
+.content .text:first-child{
+  padding-top: 0;
+}
+
+.content .text:last-child{
+  border-bottom: none;
+}

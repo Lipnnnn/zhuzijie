@@ -1,0 +1,12 @@
+<view class="footer">
+  <view>解释权归竹子界茶叶有限公司所有</view>
+  <view>Copyright © {{year}} 版权所有</view>
+  <view>湖南省益阳市安化县竹子界老邓茶厂</view>
+</view>
+
+<!-- 客服图标 -->
+<view class="kefu">
+  <image class="kefu-img" src="/images/kefu.png" mode=""/>
+  <button class="kefu-btn" open-type="contact" bind:tap="{{aaa}}"></button>
+  <view class="line"></view>
+</view>

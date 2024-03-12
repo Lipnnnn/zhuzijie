@@ -1,0 +1,15 @@
+.box{
+  height: 120rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;  
+  border-bottom: 1px solid var(--themeColor);
+  .logo{
+    height: 70rpx;
+  }
+  van-icon{
+    font-size: 50rpx;
+    color: var(--themeColor);
+  }
+}

@@ -1,0 +1,33 @@
+.item{
+  display: flex;
+  margin-bottom: 30rpx;
+  .news-img{
+    width: 220rpx;
+    height: 150rpx;
+  }
+  .content{
+    margin-left: 30rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .text{
+      // 以下六行是设置文本只显示两行，超出部分用省略号显示！（缺一不可）
+      white-space: normal;  /* 表示合并空格，即多个相邻的空格合并成一个空格 */
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;  // 流式布局
+      -webkit-line-clamp: 2;  // 展示2行
+      -webkit-box-orient: vertical;
+      line-height: 1.4em;
+    }
+    .other{
+      display: flex;
+      justify-content: space-between;
+      font-size: 26rpx;
+      van-icon{
+        margin-right: 4rpx;
+      }
+    }
+  }
+}
+

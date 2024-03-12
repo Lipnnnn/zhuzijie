@@ -1,0 +1,24 @@
+<!-- 新闻的每一个item -->
+<view class="item">
+  <view>
+    <image class="news-img" src="{{item.picurl}}" mode=""/>
+  </view>
+  <view class="content">
+    <view class="text">{{item.title}}</view>
+    <view class="other">
+      <view>
+        <van-icon class="van-icon" name="clock-o" />
+        <text>{{item.publish_date}}</text>
+      </view>
+      <view>
+        <van-icon  class="van-icon" name="eye-o" />
+        <text>{{item.view_count}}</text>
+      </view>
+      <view>
+        <van-icon  class="van-icon" name="contact-o" />
+        <text>{{item.author}}</text>  
+      </view>
+    </view>
+  </view>
+  
+</view>

@@ -1,0 +1,4 @@
+<view class="box">
+  <image src="/images/logo.jpg" mode="heightFix" class="logo"/>
+  <van-icon class="van-icon" name="search" />
+</view>
