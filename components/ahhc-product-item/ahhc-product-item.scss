@@ -1,0 +1,31 @@
+.pro-item{
+  width: 330rpx;
+  margin: 22.5rpx;
+  border: 1px solid var(--lightColor);
+  .pro-item-img{
+    width: 100%;
+  }
+  .pro-item-title{
+    font-size: 38rpx;
+    color: var(--focusColor);
+    margin: 20rpx 20rpx;
+    padding-bottom: 20rpx;
+    border-bottom: 1px solid var(--lightColor);
+    // 设置一行只展示六个字，超出部分用省略号表示
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .pro-details{
+    margin: 20rpx;
+    .pro-desc{
+      font-size: 26rpx;
+      color: var(--subColor);
+    }
+    .pro-spci{
+      font-size: 26rpx;
+      color: var(--focusColor);
+    }
+  }
+}

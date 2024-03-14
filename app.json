@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/classify/classify",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/newsDetail/newsDetail",
+    "pages/proDetail/proDetail"
   ],
   "window": {
     "navigationBarTextStyle": "white",
@@ -41,7 +43,13 @@
     "ahhc-header": "/components/ahhc-header/ahhc-header",
     "ahhc-news-item": "components/ahhc-news-item/ahhc-news-item",
     "ahhc-footer": "/components/ahhc-footer/ahhc-footer",
-    "van-icon": "@vant/weapp/icon/index",
-    "van-loading": "@vant/weapp/loading/index"
+    "ahhc-product-item": "/components/ahhc-product-item/ahhc-product-item",
+    "t-icon": "tdesign-miniprogram/icon/icon",
+    "t-skeleton": "tdesign-miniprogram/skeleton/skeleton",
+    "t-tab-bar": "tdesign-miniprogram/tab-bar/tab-bar",
+    "t-tab-bar-item": "tdesign-miniprogram/tab-bar-item/tab-bar-item",
+    "van-loading": "@vant/weapp/loading/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
   }
 }

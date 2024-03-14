@@ -58,17 +58,3 @@ page{
   text-align: justify;  /* 设置文字左右两端对齐 */
 }
 
-.content .text{
-  text-indent: 2em;  /* 首行缩进两个字符 */
-  border-bottom: 4rpx dotted var(--themeColor);
-  padding: 20rpx 10rpx;
-  line-height: 1.6em;
-}
-
-.content .text:first-child{
-  padding-top: 0;
-}
-
-.content .text:last-child{
-  border-bottom: none;
-}

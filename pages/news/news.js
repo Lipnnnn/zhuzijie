@@ -30,7 +30,7 @@ Page({
       wx.stopPullDownRefresh();
       res.data.forEach(item=>{
         item.view_count = formatNum(item.view_count);
-        item.publish_date = formatTime(item.publish_date);
+        item.publish_date = formatTime(item.publish_date,5);
       });
       let oldData = this.data.newsArr;
       let newData = oldData.concat(res.data);

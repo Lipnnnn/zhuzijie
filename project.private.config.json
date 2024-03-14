@@ -8,6 +8,20 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/classify/classify",
+          "pathName": "pages/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/newsDetail/newsDetail",
+          "pathName": "pages/newsDetail/newsDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages/news/news",
           "pathName": "pages/news/news",
           "query": "",

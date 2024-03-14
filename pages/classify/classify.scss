@@ -1,0 +1,19 @@
+.cla-img{
+  width: 750rpx;
+  height: 460rpx;
+}
+
+.cla-content{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.cla-footer{
+  text-align: center;
+  padding: 30rpx;
+  .cla-footer-nodata{
+    color: var(--descColor);
+    font-size: 30rpx;
+  }
+}

@@ -1,4 +1,4 @@
 <view class="box">
   <image src="/images/logo.jpg" mode="heightFix" class="logo"/>
-  <van-icon class="van-icon" name="search" />
+  <t-icon name="search" size="50rpx" color="#BDA066"/>
 </view>

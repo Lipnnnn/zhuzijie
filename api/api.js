@@ -18,3 +18,21 @@ export function queryNews(data){
     data: data    // 这里第一个data是发送请求时的格式data，第二个data是传递过来的参数
   })
 }
+
+// 获取新闻详情数据
+export function queryNewsDetail(data){
+  return request({
+    url: '/news/detail',
+    method: 'POST',
+    data: data
+  })
+}
+
+// 获取产品列表数据
+export function queryProList(data){
+  return request({
+    url: '/product/getlist',
+    method: 'POST',
+    data: data
+  })
+}

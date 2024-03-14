@@ -1,0 +1,32 @@
+<!-- 骨架屏，在页面没有加载出来的时候展示 -->
+<view class="out" wx:if="{{!newsDetail}}">
+  <view class="group">
+    <t-skeleton class="group-content"></t-skeleton>
+  </view>
+  <view class="group">
+    <t-skeleton class="group-content"></t-skeleton>
+  </view>
+  <view class="group">
+    <t-skeleton class="group-content"></t-skeleton>
+  </view>
+</view>
+
+<view class="news-detail" wx:else>
+  <view class="title">{{newsDetail.title}}</view>
+  <view class="text">
+    <text class="context">{{newsDetail.publish_date}} {{newsDetail.author}} {{newsDetail.view_count}}阅读</text>
+    <view class="text-share">
+      <t-icon class="t-icon" name="share-1" size="35rpx" />
+      <text>分享</text>
+      <button class="btn" open-type="share"></button>
+    </view>
+  </view>
+  <view class="content">
+    <!-- 使用富文本标签渲染content，content是带有html标签的一段文本 -->
+    <rich-text nodes="{{newsDetail.content}}"></rich-text>
+  </view>
+  <view class="statement">
+    <view class="header">免责声明</view>
+    <view>本文来自网络新闻创造者，不代表竹子界小程序的观点和立场，如有侵权请联系客服进行删除。</view>
+  </view>
+</view>

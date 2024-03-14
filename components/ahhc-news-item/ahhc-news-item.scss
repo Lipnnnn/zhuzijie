@@ -24,8 +24,13 @@
       display: flex;
       justify-content: space-between;
       font-size: 26rpx;
-      van-icon{
-        margin-right: 4rpx;
+      .other-text{
+        display: flex;
+        align-items: center;
+        .t-icon{
+          display: inline-block;
+          margin-right: 5rpx;
+        }
       }
     }
   }

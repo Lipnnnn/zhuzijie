@@ -1,3 +1,28 @@
-<!--pages/classify/classify.wxml-->
+<!-- 分类页面 -->
 <ahhc-header></ahhc-header>
-<text>pages/classify/classify.wxml</text>
+
+<view>
+  <image class="cla-img" src="/images/teaBanner.jpg" mode="aspectFill"/>
+</view>
+
+<view class="cla-nav">
+  <van-tabs 
+  active="{{ active }}"
+  color="#BDA066"
+  title-active-color="#BDA066"
+  bind:click="navChange"
+  >
+    <van-tab  wx:for="{{classifyNav}}" wx:key="_id" title="{{item.classname}}"></van-tab>
+  </van-tabs>
+</view>
+
+<view class="cla-content">
+  <ahhc-product-item wx:for="{{proList}}" wx:key="_id" item="{{item}}"></ahhc-product-item>
+</view>
+
+<view class="cla-footer">
+  <van-loading size="24px" wx:if="{{isLoading}}">加载中...</van-loading>
+  <view class="cla-footer-nodata" wx:if="{{isData}}">没有更多数据了...</view>
+</view>
+
+<ahhc-footer></ahhc-footer>

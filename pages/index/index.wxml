@@ -30,7 +30,7 @@
 <!-- 横向滚动区域nav -->
 <view class="scroll-nav">
   <scroll-view class="nav-view" scroll-x 	show-scrollbar="false" enhanced> 
-    <navigator url="" wx:for="{{navData}}" wx:key="_id" class="nav-navi">
+    <navigator open-type="reLaunch" url="/pages/classify/classify?index={{index}}" wx:for="{{navData}}" wx:key="_id" class="nav-navi">
       <view class="nav-item">
         <image class="nav-img" src="{{item.icon}}" mode=""/>
         <view class="nav-text">{{item.classname}}</view>

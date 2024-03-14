@@ -1,0 +1,28 @@
+<view class="pro-item">
+  <view>
+    <image class="pro-item-img" src="{{item.picpath}}" mode="widthFix"/>
+    <view class="pro-item-title">{{item.title}}</view>
+  </view>
+  <view class="pro-details">
+    <view>
+      <text class="pro-desc" decode="{{true}}">货&emsp;号：</text>
+      <text class="pro-spci">{{item.pronum}}</text>
+    </view>
+    <view>
+      <text class="pro-desc" decode="{{true}}">等&emsp;级：</text>
+      <text class="pro-spci">{{item.grade}}</text>
+    </view>
+    <view>
+      <text class="pro-desc" decode="{{true}}">年&emsp;份：</text>
+      <text class="pro-spci">{{item.year}}</text>
+    </view>
+    <view>
+      <text class="pro-desc" decode="{{true}}">净含量：</text>
+      <text class="pro-spci">{{item.weight}}</text>
+    </view>
+    <view>
+      <text class="pro-desc" decode="{{true}}">零售价：</text>
+      <text class="pro-spci">5000/饼</text>
+    </view>
+  </view>
+</view>
