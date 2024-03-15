@@ -1,4 +1,4 @@
 <view class="box">
-  <image src="/images/logo.jpg" mode="heightFix" class="logo"/>
+  <image src="/images/logo2.png" mode="heightFix" class="logo"/>
   <t-icon name="call" size="50rpx" color="#BDA066" bind:tap="call"/>
 </view>
