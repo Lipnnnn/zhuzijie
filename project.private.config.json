@@ -8,6 +8,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/proDetail/proDetail",
+          "pathName": "pages/proDetail/proDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages/classify/classify",
           "pathName": "pages/classify/classify",
           "query": "",

@@ -1,2 +1,28 @@
-<!--pages/proDetail/proDetail.wxml-->
-<text>pages/proDetail/proDetail.wxml</text>
+<!-- 骨架屏，在页面没有加载出来的时候展示 -->
+<view class="out" wx:if="{{!isproDetail}}">
+  <view class="group">
+    <t-skeleton class="group-content"></t-skeleton>
+  </view>
+  <view class="group">
+    <t-skeleton class="group-content"></t-skeleton>
+  </view>
+  <view class="group">
+    <t-skeleton class="group-content"></t-skeleton>
+  </view>
+</view>
+
+<view class="pro-detail" wx:else >
+  <view class="title">{{proDetail.title}}</view>
+  <view class="content">
+    <image src="{{proDetail.picpath}}" mode=""/>
+    <view class="content-desc">
+      <view>货号：{{proDetail.pronum}}</view>
+      <view>等级：{{proDetail.grade}}</view>
+      <view>年份：{{proDetail.year}}</view>
+      <view>净含量：{{proDetail.weight}}</view>
+      <view>零售价：{{proDetail.price}}</view>
+    </view>
+  </view>
+</view>
+
+<ahhc-footer></ahhc-footer>

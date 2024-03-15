@@ -1,18 +1,35 @@
-// pages/proDetail/proDetail.js
+import {queryProDetail} from '../../api/api'
+let id;
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    proDetail: Object,
+    isproDetail: false
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    id = options.id;  // 获取从产品分类页面传递过来的参数id
+    this.getProDetail();
+  },
 
+  getProDetail(){
+    this.setData({
+      isproDetail: false
+    })
+    queryProDetail({
+      id: id
+    }).then(res=>{
+      this.setData({
+        proDetail: res.data,
+        isproDetail: true
+      })
+    })
   },
 
   /**

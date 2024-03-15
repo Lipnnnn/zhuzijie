@@ -36,3 +36,12 @@ export function queryProList(data){
     data: data
   })
 }
+
+// 获取产品详情
+export function queryProDetail(data){
+  return request({
+    url: '/product/detail',
+    method: 'POST',
+    data: data
+  })
+}
