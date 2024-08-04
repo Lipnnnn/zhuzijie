@@ -18,19 +18,23 @@
 
 ① 首页：
 
-![image-20240315120053512](C:\Users\23130\AppData\Roaming\Typora\typora-user-images\image-20240315120053512.png)
+![image-20240315120053512](https://github.com/user-attachments/assets/2e33c1e9-4de4-41c0-a0db-190174c9dc25)
+
+
 
 ② 分类页面：
 
-![image-20240315120256284](C:\Users\23130\AppData\Roaming\Typora\typora-user-images\image-20240315120256284.png)
+![image-20240315120256284](https://github.com/user-attachments/assets/2fc669e3-ef8c-4244-b19a-6c0696c66b94)
 
 ③ 资讯页面：
 
-![image-20240315120335823](C:\Users\23130\AppData\Roaming\Typora\typora-user-images\image-20240315120335823.png)
+![image-20240315120335823](https://github.com/user-attachments/assets/20cac450-8793-4497-800f-1b29fd0e14ae)
+
 
 ④ 商品详情页面：
 
-![image-20240315120519770](C:\Users\23130\AppData\Roaming\Typora\typora-user-images\image-20240315120519770.png)
+![image-20240315120519770](https://github.com/user-attachments/assets/db0c9e99-bf41-4d4c-b4f1-7982401f836e)
+
 
 
 
@@ -38,7 +42,7 @@
 
 ① 从零开始学习微信小程序原生开发；
 
-② 熟练使用微信小程序开发常用组件（<swiper>、<swiper-item>、<scroll-view>、<navigator>）等；
+② 熟练使用微信小程序开发常用组件（swiper、swiper-item、scroll-view、navigator）等；
 
 ③ 熟悉Vant Weapp组件库的使用；
 
@@ -52,4 +56,4 @@
 
 目前小程序已经发布了测试版本，微信扫描以下二维码，提交申请即可查看小程序：
 
-![img](file:///C:\Users\23130\Documents\Tencent Files\2313030037\Image\C2C\743e9ca1ca3442369a3f18a9cf1fc3be.jpg)
+![otd2568e-D7sBmutkHuF9p-RPP2g](https://github.com/user-attachments/assets/93fdd6d3-8cd4-4847-b4cc-7f461f0238e8)
